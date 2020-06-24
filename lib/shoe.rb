@@ -1,57 +1,59 @@
 # Make your shoe class here!
 class Shoe 
-    attr_accessor :brand
+    attr_reader :brand
+    attr_accessor :color, :size, :material,
+    :condition
 
-    def initialize(new_shoe)
-        @shoe = new_shoe
+    def initialize(brand)
+        @brand = brand
     end
 
-    def shoe
-        @shoe
-    end
+    # def shoe
+    #     @shoe
+    # end
 
-    def brand=(new_shoe)
-        @shoe = new_shoe
-    end
-
-
-    def brand
-        @shoe
-    end
-
-    def color=(color)
-        @color = color
-    end
-
-    def color
-        @color
-    end
+    # def brand=(new_shoe)
+    #     @shoe = new_shoe
+    # end
 
 
-    def size=(size)
-        @size= size
-    end
+    # def brand
+    #     @shoe
+    # end
 
-    def size
-        @size
-    end
+    # def color=(color)
+    #     @color = color
+    # end
 
-    def material=(material)
-        @material= material
-    end
+    # def color
+    #     @color
+    # end
 
-    def material 
-        @material
-    end
 
-    def condition=(condition)
-        @condition = condition
+    # def size=(size)
+    #     @size= size
+    # end
 
-    end
+    # def size
+    #     @size
+    # end
 
-    def condition
-        @condition
-    end
+    # def material=(material)
+    #     @material= material
+    # end
+
+    # def material 
+    #     @material
+    # end
+
+    # def condition=(condition)
+    #     @condition = condition
+
+    # end
+
+    # def condition
+    #     @condition
+    # end
 
     def cobble
         
